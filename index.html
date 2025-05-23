@@ -27,67 +27,76 @@
 <body class="debug">
   <!-- ANCHOR nav -->
   <nav class="sticky-top bg-light">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-1">
-          <i class="mdi mdi-tooth"></i>
-        </div>
-        <div class="col-11">
-          <span>Chip Skylark</span>
-        </div>
-      </div>
-    </div>
-    </div>
+    <span class="fs-1"><i class="mdi mdi-tooth"></i> Chip Skylark</span>
   </nav>
   <main>
     <!-- ANCHOR hero section -->
-    <section class="container-fluid">
-      <div class="row  bg-chip-teeth">
-        <!-- ANCHOR form card -->
-        <div class="col-md-4">
-          <div class="card">
-            <div class="card-body">
-              <form>
-                <div class="container">
-                  <div class="row">
-                    <div>
-                      <p>Send Chip+his shiny teeth a message</p>
-                      <label for="name-input" class="form-label">Name</label>
-                      <input type="text" class="form-control" id="name-input" placeholder="Your Name">
-                      <label for="email-input" class="form-label">E-mail</label>
-                      <input type="email" class="form-control" id="email-input" placeholder="Your@email.com">
-                      <label for="message-input" class="form-label" id="">Message</label>
-                      <input type="text" class="form-control" id="message-input" placeholder="lorem">
+    <section>
+      <div class="container-fluid">
+        <div class="row  bg-chip-teeth py-3">
+          <!-- ANCHOR form card -->
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <form>
+                  <div class="container">
+                    <div class="row">
+                      <div>
+                        <p>Send Chip+his shiny teeth a message</p>
+                        <label for="name-input" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name-input" placeholder="Your Name">
+                        <label for="email-input" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="email-input" placeholder="Your@email.com">
+                        <label for="message-input" class="form-label" id="">Message</label>
+                        <input type="text" class="form-control" id="message-input" placeholder="lorem">
+                      </div>
                     </div>
                   </div>
-                </div>
+              </div>
               </form>
             </div>
           </div>
-        </div>
-        <div class="col-md-8 d-none d-md-block">
-          <h1>Lorem ipsum dolor sit.</h1>
-          <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsam culpa doloremque, unde alias
-            minus voluptate adipisci molestiae?</small>
+          <div class="col-md-8 d-none d-md-block">
+            <h1>Lorem ipsum dolor sit.</h1>
+            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ipsam culpa doloremque, unde
+              alias
+              minus voluptate adipisci molestiae?</small>
+          </div>
         </div>
       </div>
     </section>
-    <!-- ANCHOR Imporatance of brushing -->
+    <!-- ANCHOR Importance of brushing -->
     <section>
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-6 order-1 order-md-0">
+        <div class="row  bg-secondary text-light align-items-top">
+          <div class="col-md-6 order-1 order-md-0 pt-5">
             <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut alias veritatis facilis suscipit ipsum,
               explicabo et.</h2>
             <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eos hic sit aliquam doloribus
               enim. Maiores incidunt magni esse voluptates modi quo non, vitae quia maxime rem quidem sint
               aliquid.</small>
           </div>
-          <div class="col-md-6 order-0 order-md-1">
-            <div class="card">
+          <div class="col-md-6 order-0 order-md-1 m-auto">
+            <div class="card float-card">
               <div class="card-body">
                 <div class="container">
                   <div class="row">
+                    <span class="col-12 mb-2"><i class="mdi mdi-tooth-outline"></i>Lorem ipsum dolor, sit amet
+                      consectetur
+                      adipisicing
+                      elit.
+                      Nihil, molestiae.</span>
+                    <span class="col-12 mb-2"><i class="mdi mdi-toothbrush"></i> ipsum dolor sit amet consectetur
+                      adipisicing
+                      elit.
+                      Aperiam quos veritatis vel consequuntur modi qui.</span>
+                    <span class="col-12 mb-2"><i class="mdi mdi-toothbrush-paste"></i>Lorem ipsum dolor sit, amet
+                      consectetur
+                      adipisicing
+                      elit. Officiis fugit nisi cumque.</span>
+                    <span class="col-12 mb-2"><i class="mdi mdi-toothbrush-electric"></i>Lorem ipsum dolor sit amet
+                      consectetur adipisicing elit. Totam quaerat dolor veritatis molestiae, repellat explicabo dolorum
+                      illum ea ad at?</span>
                     <span class="col-12 mb-2"><i class="mdi mdi-tooth-outline"></i>Lorem ipsum dolor, sit amet
                       consectetur
                       adipisicing
@@ -115,9 +124,9 @@
     <!-- ANCHOR Chip History -->
     <section>
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-2">
-            <img src="images/chip.png" alt="Chip Skylark" id="chip-stand">
+        <div class="row bg-dark text-light history">
+          <div class="col-md-2 p-2 text-center">
+            <img class="img-fluid" src="images/chip.png" alt="Chip Skylark" id="chip-stand">
           </div>
           <div class="col-md-10">
             <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero quasi veritatis aut impedit officia
@@ -132,8 +141,8 @@
     </section>
     <!-- ANCHOR Upcoming -->
     <section>
-      <div class="container">
-        <div class="row align-items-center">
+      <div class="container-fluid">
+        <div class="row align-items-center py-2 bg-primary ">
           <div class="col-md-4 order-md-1 my-2">
             <div class="card">
               <div class="card-body text-center">
@@ -166,19 +175,26 @@
     </section>
     <!-- ANCHOR Footer -->
     <footer>
-      <h2 class="mx-md-4 ms-2">Lorem ipsum dolor sit.</h2>
-      <small class="mx-md-4 ms-2 text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id obcaecati beatae
-        quisquam?</small>
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-4">
-            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum.</span>
+        <div class="row py-2 bg-success">
+          <div class="col-12">
+            <h2 class="mx-md-4 ms-2">Lorem ipsum dolor sit.</h2>
+            <small class="mx-md-4 ms-2 text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id obcaecati
+              beatae
+              quisquam?</small>
           </div>
-          <div class="col-md-4">
-            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis?</span>
-          </div>
-          <div class="col-md-4">
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, cumque?</span>
+        </div>
+        <div class="container-fluid">
+          <div class="row pb-2">
+            <div class="col-md-4 py-2 pb-3">
+              <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum.</span>
+            </div>
+            <div class="col-md-4 py-2 pb-3">
+              <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis?</span>
+            </div>
+            <div class="col-md-4 py-2 pb-3">
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, cumque?</span>
+            </div>
           </div>
         </div>
       </div>

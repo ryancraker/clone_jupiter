@@ -1,9 +1,37 @@
+:root {
+  --float-card-offset: 4em;
+}
+
 .bg-chip-teeth {
   background-image: url(images/chipnteeth.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#chip-stand {
-  object-fit: cover;
+body {
+  overscroll-behavior: none;
+
+}
+
+nav {
+  font-family: Special Elite;
+}
+
+.float-card {
+  position: relative;
+  top: var(--float-card-offset)
+}
+
+.history {
+  padding-top: calc(var(--float-card-offset) * 1.5);
+}
+
+@media screen AND (max-width: 600px) {
+  :root {
+    --magic-card-offset: 0;
+  }
+
+  .float-card {
+    margin-bottom: 3em;
+  }
 }
