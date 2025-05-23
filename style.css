@@ -1,7 +1,9 @@
 .bg-chip-teeth {
   background-image: url(images/chipnteeth.png);
-  width: 100dvw;
-  height: 100dvh;
-  object-fit: fill;
+  background-size: cover;
   background-repeat: no-repeat;
+}
+
+#chip-stand {
+  object-fit: cover;
 }
