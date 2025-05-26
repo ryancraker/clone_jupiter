@@ -2,6 +2,7 @@
   --float-card-offset: 4em;
 }
 
+/* ANCHOR backgrounds */
 .bg-nav {
   background-color: #894943;
 }
@@ -12,6 +13,14 @@
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100dvh;
+}
+
+.bg-bottom-splash {
+  background-image: url(https://images.unsplash.com/photo-1654263391025-4c4809a37f5c?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: auto;
+  background-repeat: no-repeat;
+  min-height: 7em;
+  align-content: center;
 }
 
 body {
@@ -34,7 +43,7 @@ nav {
 }
 
 .history {
-  padding-top: calc(var(--float-card-offset) * 1.5);
+  padding: calc(var(--float-card-offset) * 1.5);
 }
 
 #message-input {
